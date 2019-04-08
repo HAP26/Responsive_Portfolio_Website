@@ -14,11 +14,13 @@
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
-      transform: rotate(45deg) translate(5px, 5px); }
+      transform: rotate(45deg) translate(5px, 5px);
+      background: #eece1a; }
     .menu-btn.close .btn-line:nth-child(2) {
       opacity: 0; }
     .menu-btn.close .btn-line:nth-child(3) {
-      transform: rotate(-45deg) translate(7px, -6px); }
+      transform: rotate(-45deg) translate(7px, -6px);
+      background: #eece1a; }
 
 * {
   box-sizing: border-box; }
@@ -31,7 +33,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/mac.png);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -42,7 +44,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.2); }
+      background: rgba(68, 68, 68, 0.7); }
 
 h1,
 h2,
